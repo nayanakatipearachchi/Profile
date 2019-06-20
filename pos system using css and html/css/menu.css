@@ -1,0 +1,113 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+#hr{
+	height: 70px;
+}
+.menu {
+    font-size: 14px;
+    text-underline-position: unset;
+    display: inline; 
+    padding: 8px 8px 8px 8px;
+    text-align: center;
+    float:right;
+}
+.blueText {
+    color:dodgerblue;
+}
+.img{
+	width: 20px;
+	height: 20px;
+	align-items: center;
+}
+.headerLock{
+	position: fixed;
+	background-color: white;
+}
+.tr{
+	background-color: #50A0E1;
+	color: white;
+	align-items: center;
+	border-collapse: 0px;
+}
+.menu a,sub a{
+    text-decoration: none;
+
+}
+.menu a:hover{
+    color:dodgerblue;
+}
+#user{
+	width: 40px;
+	height: 40px;
+}
+.button {
+    font-size: 20px;
+    text-underline-position: unset;
+    list-style: none;
+	width: 200px;;
+	height: 50px;
+	vertical-align: middle;
+    background-color: #373942;
+    text-decoration: none;
+	align-items: center;
+}
+.btnDash {
+	width: 350px;
+	height: 110px;
+	vertical-align: middle;
+    background-color: #373942;
+    text-decoration: none;
+	align-items: center;
+}
+.button a{
+	display: block;
+	color: white;
+	text-decoration: none;
+}
+.button a:hover, .button a.active{
+	display: block;
+    background-color: #202126;
+	border-left:5px solid dodgerblue;
+	height: 50px;
+}
+#selected{
+	display: block;
+    background-color: #202126;
+	border-left:5px solid dodgerblue;
+	height: 50px;
+}
+
+#img{
+	vertical-align: center;
+}
+.dashboard {
+	width: 650px;
+	padding: 10px;
+	text-align: left;
+}
+.rowRight {
+	padding: 10px;
+	width: 50px;
+	text-align: right;
+}
+.txtSize{
+	height: 35px;
+	width: 200px;
+}
+.btnemphty{
+    text-underline-position: unset;
+    list-style: none;
+	width: 200px;;
+	height: 50px;
+	vertical-align: middle;
+    background-color: #373942;
+    text-decoration: none;
+	align-items: center;
+}
+
+
+
+
+

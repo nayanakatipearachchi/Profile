@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NEW LIGHT POS</title>
+    <link rel="stylesheet" type="text/css" href="../../../pos_using%20mobile%20responsive/css/menu.css" />
+    <link rel="stylesheet" type="text/css" href="../../../pos_using%20mobile%20responsive/css/component.css" />
+    <link rel="stylesheet" type="text/css" href="../../../pos_using%20mobile%20responsive/css/item.css" />
+    <link rel="stylesheet" href="../../../pos_using%20mobile%20responsive/css/Normalize.css">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <style>
+        article h1 {
+            font-family: 'Bungee', cursive;
+        }
+
+        header {
+            position: fixed;
+            height: 100px;
+            width: 100%;
+            background-color: #50A0E1;
+            font-family: 'Quicksand', sans-serif;
+            color: red;
+            z-index: 100;
+        }
+
+        header ul {
+            position: absolute;
+            right: 10px;
+        }
+
+        header ul li {
+            display: inline-block;
+            padding: 10px;
+        }
+
+        header img {
+            padding: 20px;
+            position: absolute;
+
+        }
+
+        main{
+            width: 100%;
+            height: auto;
+            position: relative;
+        }
+        main nav {
+            width:30%;
+            position: fixed;
+            bottom: 0;
+            top: 0;
+            z-index: -2;
+            height: auto;
+            background-color: lightslategray;
+
+        }
+
+        main nav ul {
+            margin-top: 120px;
+        }
+
+        main nav ul li {
+            list-style: none;
+            font-family: 'Quicksand', sans-serif;
+            padding: 10px;
+            color: white;
+        }
+
+        main section {
+            margin-top: 100px;
+            position: absolute;
+            width: 80%;
+            right: 0;
+        }
+
+        footer {
+            height: 100px;
+            width: 50%;
+            background-color: cornflowerblue;
+            color: #4CAF50;
+            text-align: center;
+        }
+        a{
+            text-decoration: none;
+        }
+
+
+            section {
+                width: 100%;
+                position: absolute;
+                top: 35%;
+                left: 32.5%;
+                bottom: 0;
+            }
+
+            .new {
+                background-color: darkgray;
+                width: 100%;
+                position: absolute;
+                left: 32.5%;
+                top: 80%;
+            }
+
+            button:hover {
+                background-color: #ddd;
+            }
+
+
+/*///////////////////////////////////media///////////////////////////////////*/
+            @media all and (max-width:375px) {
+                main nav {
+                    width: 200px;
+                }
+                /*section{*/
+                    /*display: none;*/
+                /*}*/
+
+                @media all and (max-width: 489px) {
+                    main section {
+                        width: 200px;
+                        background-image: url("img/00.jpg");
+
+                    }
+                    img{
+                        display: none;
+                    }
+
+                }
+                @media all and (max-width: 768px) {
+                    main nav {
+                        text-align: left;
+                        width: 200px;
+
+                    }
+                }
+            }
+
+    </style>
+
+    <!--////////////////////////////////css end///////////////////////////////////////-->
+</head>
+<body>
+<div class="slider"></div>
+<header>
+    <img src="../../../pos_using%20mobile%20responsive/img/aaa.png" width="119">
+    <marquee>WELCOME TO THE NEW  LIGTH POS</marquee>
+    <ul>
+        <button class="menu"><a href="dash.html">home</a></button>
+        <button class="menu"><a href="applications.html">New Member</a></button>
+        <button class="menu"> <a href="recipet.html">Invoice</a></button>
+        <button class="menu"><a href="hardware.html">contact</a></button>
+    </ul>
+</header>
+
+<main>
+    <nav>
+        <ul>
+                <li class="button">
+                    <a href="cus.html"><img src="../../../pos_using%20mobile%20responsive/img/cust.png" class="img"> Customer</a></li>
+                <li class="button">
+                    <a href="reports.html"><img src="../../../pos_using%20mobile%20responsive/img/chart.png" class="img"> Reports</a></li>
+
+                <li class="button">
+                    <a href="stok.html"><img src="../../../pos_using%20mobile%20responsive/img/store.png" class="img"> Store </a></li>
+                <li class="button">
+                    <a href="map.html"><img src="../../../pos_using%20mobile%20responsive/img/settings.png" class="img"> Locations and others</a></li>
+                <li class="button">
+                    <a href="applications.html"><img src="../../../pos_using%20mobile%20responsive/img/settings.png" class="img">Update</a></li>
+                <li class="button">
+                <a href="sett.html"><img src="../../../pos_using%20mobile%20responsive/img/settings.png" class="img"> Settings</a></li>
+                <li class="button">
+                    <a href="logout.html"><img src="../../../pos_using%20mobile%20responsive/img/logout.png" class="img"> Logout</a></li>
+        </ul>
+    </nav>
+    <div id="im">
+
+    </div>
+    <section >
+        <img src="../../../pos_using%20mobile%20responsive/img/12.gif" width="100%" class="media">
+        <div class="new">
+
+        </div>
+    </section>
+
+    </main>
+</body>
+</html>

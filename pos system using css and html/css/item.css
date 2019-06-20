@@ -1,0 +1,70 @@
+.tblitem{
+    background-color: white;
+}
+.listItem{
+    vertical-align: middle;
+    color: rgb(81, 83, 85);
+    background-color: rgb(249, 249, 249);
+    text-align: left;
+    padding:10px 1306px 15px 0px;
+    left: 10px;
+    right: 10px;
+}
+.bluLabel{
+    vertical-align: middle;
+    color: dodgerblue;
+    background-color: rgb(249, 249, 249);
+    text-align: left;
+    padding:10px 1100px 15px 0px;
+    left: 10px;
+    right: 10px;
+}
+.blackTable {
+    list-style: none;
+    font-size:16px; 
+	vertical-align: middle;
+    background-color: #373942;
+    text-decoration: none;
+	align-items: center; 
+    color: rgb(249, 249, 249);
+}
+.sizes{
+    width: 700px;
+    height: 45px;
+}
+#p1:hover{
+    content: url('/Users/sw96/Suranga Sir/Assignment/php POS/_img/11.png');
+    width: 700px;
+    height: 45px;
+}
+#p2:hover{
+    content: url('/Users/sw96/Suranga Sir/Assignment/php POS/_img/22.png');
+    width: 700px;
+    height: 45px;
+}
+#p3:hover{
+    content: url('/Users/sw96/Suranga Sir/Assignment/php POS/_img/33.png');
+    width: 700px;
+    height: 45px;
+}
+#p4:hover{
+    content: url('/Users/sw96/Suranga Sir/Assignment/php POS/_img/44.png');
+    width: 700px;
+    height: 45px;
+}
+#p5:hover{
+    content: url('/Users/sw96/Suranga Sir/Assignment/php POS/_img/55.png');
+    width: 700px;
+    height: 45px;
+}
+.fntsize{
+    font-size: 30px;
+    background-color: white;
+    text-align: center;
+    vertical-align: middle;
+     width: 1430px;
+}
+#mchart{
+    width: 1430px;
+    height: 400px;
+}

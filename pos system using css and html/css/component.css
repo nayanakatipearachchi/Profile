@@ -1,0 +1,159 @@
+#btnCust ,#btnCust a{
+    padding: 8px;
+    background:  #50A0E1;
+    color: white;
+    font-size: 80%;
+    border-radius: 10px;
+    text-shadow: none;
+    cursor: hand;
+    height: 45px;
+    width: 150px;
+    text-decoration: none;
+    border: none;
+}
+#btnitem{
+    padding: 5px;
+    background:  #50A0E1;
+    color: white;
+    font-size: 80%;
+    border-radius: 10px;
+    text-shadow: none;
+    cursor: hand;
+    height: 45px;
+    width: 120px;
+    text-decoration: none;
+    border: none;
+}
+#btnPay{
+    padding: 8px;
+    background:  #50A0E1;
+    color: white;
+    font-size: 80%;
+    text-shadow: none;
+    cursor: hand;
+    height: 40px;
+    width: 50px;
+    text-decoration: none;
+    border: none;
+}
+#btnOne{
+    padding: 8px;
+    background:  #50A0E1;
+    color: white;
+    font-size: 80%;
+    border-radius: 30px;
+    text-shadow: none;
+    cursor: hand;
+    height: 30px;
+    width: 30px;
+    text-decoration: none;
+    border: none;
+}
+#buildBtn{
+    padding: 8px;
+    background:  #50A0E1;
+    color: white;
+    font-size: 80%;
+    border-radius: 30px;
+    text-shadow: none;
+    cursor: hand;
+    height: 30px;
+    width: 55px;
+    text-decoration: none;
+    border: none;
+}
+#btnCust:hover{
+    background: dodgerblue;
+}
+#btnCust a:hover{
+    color: dodgerblue;
+}
+#btnEmpty ,#btnEmpty a{
+    width: 60px;
+    height: 45px;
+    padding: 8px;
+    background-color: rgb(243, 246, 249);
+    color: black;
+    font-size: 80%;
+    border-radius: 10px;
+    text-shadow: none;
+    cursor: hand;
+    text-decoration: none;
+    border: none;
+}
+.backColor{
+    background-color: rgb(233, 235, 242);
+}
+.tblSub{
+    width: 500px;
+}
+#tblColor{
+    background-color: white;
+    width: 1350px;
+    vertical-align: top;
+    margin: 0px auto;
+}
+.fieldSizes{
+    height: 35px;
+	width: 1000px;
+    align-items: center;
+}
+.reLabel{
+    vertical-align: middle;
+    color: rgb(81, 83, 85);
+    background-color: rgb(249, 249, 249);
+    text-align: left;
+    padding:10px 1100px 15px 0px;
+    left: 10px;
+    right: 10px;
+}
+.tblForm{
+    overflow: auto;
+    overflow-y: scroll;
+    border-left: 22px;
+    border-right: 22px;
+    border-style: solid;
+    border-top: none;
+    border-bottom: none;
+    border-color: rgb(233, 235, 242);
+    width: 1470px;
+    vertical-align: top;
+    margin: 0px auto;
+    background-color: white;
+}
+.frmtxtsize{
+    height: 25px;
+    width: 1000px;
+}
+#require{
+    color: red;
+}
+#green{
+    color: mediumseagreen;
+}
+#up{
+    position: relative;
+    background-color: #50A0E1;
+    background: white;
+    display: inline-block;
+}
+#avatar{
+    background-color: rgb(209, 209, 209);
+    width: 100px;
+    height: 100px;
+}
+#btnSubmit{
+    padding: 4px;
+    background:  #50A0E1;
+    color: white;
+    font-size: 80%;
+    text-shadow: none;
+    cursor: hand;
+    height: 25px;
+    width: 50px;
+    text-decoration: none;
+    border: none;
+}
+.background{
+    background-color: rgb(233, 235, 242);
+}

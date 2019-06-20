@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width initial-scale=1">
+
+<head>
+    <meta charset="UTF-8">
+    <title>map</title>
+    <head>
+    <style>
+       .slider {
+            width: 100%;
+            animation: slider 8s infinite;
+            margin: 10px;
+            height: 550px;
+        }
+
+        @keyframes slider {
+            0% {
+                background: url("../../../pos_using mobile responsive/img/s1.jpg") center center;
+            }
+            20% {
+                background: url("../../../pos_using mobile responsive/img/s4.jpg") center center;
+            }
+            40% {
+                background: url("../../../pos_using mobile responsive/img/s3.jpg") center center;
+            }
+            60% {
+                background: url("../../../pos_using mobile responsive/img/s2.jpg") center center;
+            }
+            80% {
+                background: url("../../../pos_using mobile responsive/img/map.png") center center;
+            }
+            100%{
+                background: url("../../../pos_using mobile responsive/img/s5.jpeg") center center;
+            }
+        }
+       @media all and (max-width: 768px) {
+           #a {
+               display: none;
+           }
+
+           @media all and (max-width: 375px) {
+               main nav {
+                   width: 200px;
+               }
+           }
+       }
+    </style>
+</head>
+<body>
+<div class="slider"></div>
+</body>
+</html>
